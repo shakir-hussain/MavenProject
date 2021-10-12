@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-03T20:01:44 EDT" name="regression" finished-at="2021-10-03T20:02:07 EDT" duration-ms="23090">
+    <groups>
+    </groups>
+    <test started-at="2021-10-03T20:01:44 EDT" name="adhoc" finished-at="2021-10-03T20:02:07 EDT" duration-ms="23090">
+      <class name="shakir_hussain.NewTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:shakir_hussain.NewTest@be64738]" started-at="2021-10-03T20:01:44 EDT" name="setup" finished-at="2021-10-03T20:01:47 EDT" duration-ms="2917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:shakir_hussain.NewTest@be64738]" started-at="2021-10-03T20:01:47 EDT" name="f" data-provider="dp" finished-at="2021-10-03T20:01:53 EDT" duration-ms="6275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shakirhussain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rayhanrahman]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:shakir_hussain.NewTest@be64738]" started-at="2021-10-03T20:01:54 EDT" name="f" data-provider="dp" finished-at="2021-10-03T20:02:00 EDT" duration-ms="6182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[foysolRahman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JahadAhmed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:shakir_hussain.NewTest@be64738]" started-at="2021-10-03T20:02:00 EDT" name="f" data-provider="dp" finished-at="2021-10-03T20:02:07 EDT" duration-ms="6205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jahad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:shakir_hussain.NewTest@be64738]" started-at="2021-10-03T20:02:07 EDT" name="tearUp" finished-at="2021-10-03T20:02:07 EDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- shakir_hussain.NewTest -->
+    </test> <!-- adhoc -->
+  </suite> <!-- regression -->
+</testng-results>

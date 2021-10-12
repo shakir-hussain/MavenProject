@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression">
+<parameter name="website" value="https://www.facebook.com"></parameter>
+<listeners>
+<listener class-name="shakir_hussain.Listener"></listener>
+</listeners>
+<test name="adhoc">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="shakir_hussain.NewTest">
+</class>
+</classes>
+</test>
+</suite>

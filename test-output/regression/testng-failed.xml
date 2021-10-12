@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]" guice-stage="DEVELOPMENT">
+  <parameter name="website" value="https://www.facebook.com"/>
+  <listeners>
+    <listener class-name="shakir_hussain.Listener"/>
+  </listeners>
+  <test thread-count="5" name="adhoc(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="shakir_hussain.NewTest">
+        <methods>
+          <include name="f"/>
+          <include name="tearUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- shakir_hussain.NewTest -->
+    </classes>
+  </test> <!-- adhoc(failed) -->
+</suite> <!-- Failed suite [regression] -->
